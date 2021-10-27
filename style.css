@@ -1,0 +1,97 @@
+/* Colors */
+:root {
+  --orange: #cd8164;
+  --black: #232424;
+  --white: #e8e6e3;
+}
+/* FONTS */
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Montserrat:wght@100;200&family=Zen+Kaku+Gothic+New:wght@300&display=swap');
+
+/* HARD RESET */
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+/* Style */
+body {
+  background-image: url(img/fundo.jpg);
+  width: 400px;
+  height: 300px;
+}
+
+/* Header */
+header {
+  width: 1005px;
+  height: 200px;
+  margin-top: 40px;
+  margin-left: 150px;
+  background-color: var(--white);
+  color: var(--black);
+}
+
+header h1 {
+  font-weight: lighter;
+  font-size: 3rem;
+  margin-left: 110px;
+  margin-bottom: 50px;
+  margin-top: 40px;
+}
+
+header h2 {
+  align-items: center;
+  font-weight: lighter;
+  font-size: 3rem;
+  margin-top: 0px;
+  margin-left: 400px;
+}
+
+#pages {
+  border-color: var(--white);
+  border-style: solid;
+  background-color: var(--white);
+  width: 1000px;
+  height: 50px;
+  margin-left: 150px;
+  margin-top: 10px;
+}
+
+#pages button {
+  align-items: center;
+  margin-left: 200px;
+}
+
+#portifolio {
+  border-style: solid;
+  border-color: var(--white);
+  background-color: var(--white);
+  width: 1000px;
+  height: 1000px;
+  margin-top: 10px;
+  margin-left: 150px;
+  margin-bottom: 35px;
+}
+
+footer {
+  width: 1005px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  margin-left: 150px;
+  margin-bottom: 10px;
+  background-color: var(--white);
+}
+
+footer h4 {
+  font-size: 1rem;
+  color: var(--black);
+}
+
+footer h4 a {
+  color: var(--black);
+}
